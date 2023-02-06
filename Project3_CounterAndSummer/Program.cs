@@ -6,7 +6,7 @@ while (i!=0)
   c++;
   int d=i%10;
   sum+=d;
-  n/=10;
+  i/=10;
 }
 Console.WriteLine(c);
 Console.WriteLine(sum);
